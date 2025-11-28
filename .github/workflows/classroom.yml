@@ -12,7 +12,7 @@ jobs:
     if: github.actor != 'github-classroom[bot]'
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
     - name: "#contains() returns false when set is empty"
       id: contains-returns-false-when-set-is-empty
       uses: classroom-resources/autograding-command-grader@v1
